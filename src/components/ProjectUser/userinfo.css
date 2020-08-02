@@ -1,0 +1,65 @@
+.UserMain {
+  width: 100%;
+  height: 69.98px;
+  border-bottom: 1px solid #888787;
+  /* transform: matrix(1, 0, 0, 1, 0, 0); */
+  display: grid;
+  grid-template-columns: 85% 10%;
+}
+
+.UserMain .title {
+  width: 250.78px;
+  height: 19.12px;
+  margin-left: 14.8px;
+  margin-top: 10px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #b6ff94;
+}
+
+.UserMain .userName {
+  width: 96.45px;
+  height: 19.12px;
+  margin-left: 13.36px;
+  /* margin-top: 6.03px; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  float: left;
+  color: #e0e0e0;
+}
+
+.UserMain .timeperiod {
+  width: 96.45px;
+  height: 19.12px;
+  margin-left: 174.7px;
+  margin-top: 7.03px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #e0e0e0;
+}
+.UserMain .rightIcon {
+  margin-top: 50%;
+  right: 5.23%;
+  float: right;
+  color: #e0e0e0;
+}

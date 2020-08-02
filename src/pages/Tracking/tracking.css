@@ -1,0 +1,180 @@
+@import "toggleBtn.css";
+
+.MainProject {
+  height: 100vh;
+  width: 100%;
+}
+
+/* User Information */
+.MainProject .user-information {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+/* Back Button Icon */
+.MainProject .user-information .back-button-icon {
+  margin-left: 5px;
+  margin-top: 18px;
+  float: left;
+
+  /* Gray 5 */
+  color: #e0e0e0;
+}
+
+/* Project Name Heading */
+.MainProject .user-information .project-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 35px;
+
+  color: #b6ff94;
+}
+
+/* User Name */
+.MainProject .user-information .user-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #e0e0e0;
+  margin-left: 38px;
+}
+
+.MainProject .timer-section {
+  height: 13vh;
+  width: 65%;
+  margin-left: 21.41px;
+  margin-top: 10px;
+  float: left;
+}
+
+.MainProject .timer-section p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+
+  color: #e0e0e0;
+}
+
+.MainProject .timer-section .time {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  /* line-height: 23px; */
+  display: flex;
+  align-items: center;
+  margin-top: -15px;
+  letter-spacing: 1px;
+  color: #e0e0e0;
+}
+
+/* TOggle button */
+.MainProject .timer-section .col-sm-5 {
+}
+.btn-toggle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.btn-toggle.active:before {
+  opacity: 0.5;
+}
+.btn-toggle.active:after {
+  opacity: 1;
+}
+.btn-toggle.btn-sm:before,
+.btn-toggle.btn-sm:after {
+  line-height: -0.5rem;
+  color: #fff;
+  letter-spacing: 0.75px;
+  left: 0.41250000000000003rem;
+  width: 2.325rem;
+}
+.btn-toggle.btn-sm:before {
+  text-align: right;
+}
+.btn-toggle.btn-sm:after {
+  text-align: left;
+  opacity: 0;
+}
+.btn-toggle.btn-sm.active:before {
+  opacity: 0;
+}
+.btn-toggle.btn-sm.active:after {
+  opacity: 1;
+}
+
+.MainProject .days {
+  height: 15vh;
+  width: 90%;
+  margin: auto;
+}
+
+.MainProject .days div {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.MainProject .days div p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 9px;
+
+  color: #e0e0e0;
+}
+
+.MainProject .days div .work-time {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  margin-left: 9px;
+  color: #e0e0e0;
+  margin-top: -14px;
+}
+
+.MainProject .message {
+  height: 145px;
+  width: 90%;
+  margin: auto;
+}
+
+.MainProject .message textarea {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  resize: none;
+}
+
+.MainProject .message textarea::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #a09e9e;
+}

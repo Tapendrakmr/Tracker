@@ -1,0 +1,105 @@
+/* Main Class */
+.main {
+  background: #38424b;
+  width: 100%;
+  /* text-align: center; */
+}
+
+/* Main Heading */
+.main .heading {
+  font-family: Roboto;
+  height: 140px;
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  /* line-height: 56px; */
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #f9fbfe;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Login Heading */
+.main h4 {
+  width: 100%;
+  height: 28.76px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #f9fbfe;
+
+  margin-top: 10px;
+}
+
+/* Inputs */
+.main input {
+  width: 84%;
+  height: 38.23px;
+
+  background: #60686f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  margin-top: 15px;
+  color: #e0e0e0;
+  padding-left: 20px;
+  border: none;
+}
+
+/* Inputs Placeholder */
+.main input::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #e0e0e0;
+}
+
+/* Login Button */
+
+.main #login-button {
+  width: 84%;
+  height: 38.23px;
+  background: #8bc34a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f9fbfe;
+
+  margin-top: 35px;
+  border: none;
+}
+.main #login-button:hover {
+  cursor: pointer;
+}
+/* Forgot Password */
+.main a {
+  color: #e0e0e0;
+  width: 126px;
+  height: 45px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 35px;
+  line-height: 45px;
+}
+.error {
+  color: darkorange;
+}
